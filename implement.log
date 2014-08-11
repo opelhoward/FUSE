@@ -1,0 +1,89 @@
+
+implement_getattr(path="/.xdg-volume-info")
+
+implement_getattr(path="/autorun.inf")
+
+implement_getattr(path="/.Trash")
+
+implement_readdir(path="/", buf=0xb60004e0, filler=0xb769be80, offset=0, fi=0xb7353114)
+
+implement_getattr(path="/.Trash-1000")
+
+implement_getattr(path="/Untitled Folder")
+Size : 0
+
+implement_getattr(path="/Untitled Folder 3")
+Size : 0
+
+implement_readdir(path="/", buf=0xb6a00c58, filler=0xb769be80, offset=0, fi=0xb69ff114)
+
+implement_readdir(path="/", buf=0xb56004e0, filler=0xb769be80, offset=0, fi=0xb7353114)
+
+implement_readdir(path="/", buf=0xb60004e0, filler=0xb769be80, offset=0, fi=0xb7353114)
+
+implement_readdir(path="/", buf=0xb6a00c00, filler=0xb769be80, offset=0, fi=0xb69ff114)
+
+implement_readdir(path="/", buf=0xb60004e0, filler=0xb769be80, offset=0, fi=0xb7353114)
+
+implement_readdir(path="/", buf=0xb6a00c00, filler=0xb769be80, offset=0, fi=0xb69ff114)
+
+implement_readdir(path="/", buf=0xb60004e0, filler=0xb769be80, offset=0, fi=0xb5fff114)
+
+implement_readdir(path="/", buf=0xb56004e0, filler=0xb769be80, offset=0, fi=0xb7353114)
+
+implement_readdir(path="/", buf=0xb60004e0, filler=0xb769be80, offset=0, fi=0xb7353114)
+
+implement_readdir(path="/", buf=0xb6a00c00, filler=0xb769be80, offset=0, fi=0xb5fff114)
+
+implement_readdir(path="/", buf=0xb60004e0, filler=0xb769be80, offset=0, fi=0xb7353114)
+
+implement_readdir(path="/", buf=0xb56004e0, filler=0xb769be80, offset=0, fi=0xb69ff114)
+
+implement_readdir(path="/", buf=0xb60004e0, filler=0xb769be80, offset=0, fi=0xb7353114)
+
+implement_readdir(path="/", buf=0xb56004e0, filler=0xb769be80, offset=0, fi=0xb69ff114)
+
+implement_readdir(path="/", buf=0xb60004e0, filler=0xb769be80, offset=0, fi=0xb7353114)
+
+implement_readdir(path="/", buf=0xb56004e0, filler=0xb769be80, offset=0, fi=0xb69ff114)
+
+implement_readdir(path="/", buf=0xb60004e0, filler=0xb769be80, offset=0, fi=0xb7353114)
+
+implement_readdir(path="/", buf=0xb56004e0, filler=0xb769be80, offset=0, fi=0xb69ff114)
+
+implement_readdir(path="/", buf=0xb60004e0, filler=0xb769be80, offset=0, fi=0xb7353114)
+
+implement_readdir(path="/", buf=0xb6a00c00, filler=0xb769be80, offset=0, fi=0xb5fff114)
+
+implement_readdir(path="/", buf=0xb60004e0, filler=0xb769be80, offset=0, fi=0xb7353114)
+
+implement_getattr(path="/autorun.inf")
+
+implement_getattr(path="/")
+Size : 0
+
+implement_getattr(path="/.Trash")
+
+implement_getattr(path="/.Trash-1000")
+
+implement_readdir(path="/", buf=0xb60004e0, filler=0xb769be80, offset=0, fi=0xb7353114)
+
+implement_getattr(path="/Untitled Folder")
+Size : 0
+
+implement_getattr(path="/.hidden")
+
+implement_getattr(path="/")
+Size : 0
+
+implement_getattr(path="/Untitled Folder 3")
+Size : 0
+
+implement_readdir(path="/Untitled Folder", buf=0xb56004e0, filler=0xb769be80, offset=0, fi=0xb69ff114)
+
+implement_getattr(path="/Untitled Folder/Untitled Folder 2")
+Size : 0
+
+implement_getattr(path="/Untitled Folder/.hidden")
+
+implement_destroy(void *)
